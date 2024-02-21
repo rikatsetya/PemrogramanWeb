@@ -1,0 +1,24 @@
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+table {
+    height: 550px;
+    padding: 1em;
+    width: 850px;
+    margin-top: 75px;
+    border: 2px solid;
+    border-radius: 1em;
+    background-image: url(background\ ktp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img {
+    padding-left: 10px;
+    height: 230px;
+    width: 170px;
+}
+.alamat {
+    margin-left: 25px;
+}
