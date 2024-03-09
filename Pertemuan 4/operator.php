@@ -1,4 +1,10 @@
 <?php
+/*
+    Pada praktikum 3, diberitahu tentang penggunaan operator pada php.
+    Untuk list operator php yang bisa digunakan, sudah bisa dilihat pada jobsheet.
+    Operator yang digunakan, sudah cukup familiar karena penggunaan bahasa pemrograman yang lain.
+    Pada akhir praktikum ini, terdapat soal studi kasus untuk latihan.
+*/
 $a = 10;
 $b = 5;
 
@@ -56,6 +62,13 @@ $hasilTidakIdentik = $a !== $b;
 
 echo "{$a} Identik dengan {$b}? {$hasilIdentik} <br>";
 echo "{$a} Tidak Identik dengan {$b}? {$hasilTidakIdentik} <br><br>";
+
+/*
+    Soal Cerita 3.6
+    Sebuah restoran memiliki 45 kursi di dalamnya. Pada suatu malam,
+    28 kursi telah ditempati oleh pelanggan.
+    Berapa persen kursi yang masih kosong di restoran tersebut?
+*/
 
 $kursi = 45;
 $pelanggan = 28;

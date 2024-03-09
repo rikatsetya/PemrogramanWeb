@@ -1,4 +1,9 @@
 <?php
+/*
+    Pada Praktikum 2, diajarkan beberapa tipe data yang dapat digunakan pada php.
+    Terdapat pula sebuah kode var_dump(), yang kegunaannya adalah untuk menampilkan nilai variabel saat ini.
+    Penjelasan mengenai var_dump() baru dijelaskan ketika saya mengalami error di kelas.
+*/
 $a = 10;
 $b = 5;
 $c = $a + 5;
