@@ -1,0 +1,24 @@
+<!--
+    Program untuk menampilkan sebuah file atau pemanggilan file melalui suatu file.
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                //pada parameter load, langsung saya ketikkan nama filenya
+                //karena ketika terlalu panjang, tidak bisa muncul
+                $("#box").load("test-content.html");
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id="box">
+            <h2>Klik tombol dibawah untuk menampilkan konten</h2>
+        </div>
+        <button type="button">Klik Saya!</button>
+    </body>
+</html>

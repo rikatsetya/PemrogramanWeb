@@ -1,0 +1,22 @@
+<!--
+    Fungsi ready apabila di hapus tidak akan terbaca dokumen tersebut ready atau tidak. Fungsi
+    raedy untuk mencegah kode jquerry dieksekusi sebelum dokumen sudah siap. Maka pada
+    setiap kode jquerry akan diawali dengan ready untuk menyiapkan dokumen.
+-->
+
+    <!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="jquery-3.7.1.js"></script>
+        <script>
+            //$(document).ready(function() {
+                $("#button1").click(function(){
+                    alert("Ini Praktikum Minggu ke-4");
+                });
+            //});
+        </script>
+    </head>
+    <body>
+        <input type="button" id="button1" value="Klik Saya!"/>
+    </body>
+</html>
