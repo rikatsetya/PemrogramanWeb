@@ -9,7 +9,7 @@ body{
     padding-top: 10px ;
     padding-left: 20px ;
     padding-right: 20px ;
-    padding-bottom: 10px ;
+    padding-bottom: 20px ;
     border: 0px solid ;
     border-radius: 10px;
     text-align: center;
@@ -17,6 +17,8 @@ body{
 
 hr{
     width: 440px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 input{
@@ -55,5 +57,7 @@ button{
     height: 20px;
 }
 
-
-
+.link-button:disabled {
+    background: #ccc; /* Change color when disabled */
+    cursor: not-allowed; /* Change cursor style when disabled */
+}
